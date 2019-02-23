@@ -1,0 +1,188 @@
+﻿Title: Boolean Logar(System.String, System.String, Library.Funcionario ByRef, System.String ByRef)
+Message: Conversão especificada não é válida.
+StackTrace:    em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Funcionario.cs:linha 418
+Date/Time: 23/11/2010 09:19:56
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Cannot open backup device 'C:\Documents and Settings\Eduardo\Desktop\t.bak'. Operating system error 5(Acesso negado.).
+BACKUP DATABASE is terminating abnormally.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.Backup.Execute(String file) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Backup.cs:linha 30
+Date/Time: 23/11/2010 09:47:37
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Cannot open backup device 'C:\Documents and Settings\Eduardo\Desktop\dsa.bak'. Operating system error 5(Acesso negado.).
+BACKUP DATABASE is terminating abnormally.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.Backup.Execute(String file) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Backup.cs:linha 30
+Date/Time: 23/11/2010 09:49:42
+===========================================================================================
+
+Title: System.Data.SqlTypes.SqlDateTime FromTimeSpan(System.TimeSpan)
+Message: Estouro de SqlDateTime. Deve estar entre 1/1/1753 12:00:00 AM e 31/12/9999 11:59:59 PM.
+StackTrace:    em System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   em System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   em System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   em System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.ClienteBD.Update(Cliente cliente) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Cliente.cs:linha 335
+Date/Time: 23/11/2010 11:00:57
+===========================================================================================
+
+Title: Library.Cheque[] ReturnCheque(System.Windows.Forms.DataGridView, Int64)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Venda.Venda.ReturnCheque(DataGridView dataGrid, Int64 idVendaAtual) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Venda\VendaModel.cs:linha 212
+Date/Time: 24/11/2010 09:46:47
+===========================================================================================
+
+Title: Void salvarButton_Click(System.Object, System.EventArgs)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Venda\Venda.cs:linha 322
+Date/Time: 24/11/2010 09:46:47
+===========================================================================================
+
+Title: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Message: Cadeia de entrada não estava em um formato incorreto.
+StackTrace:    em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Library.Converter.Funcoes.ConvertToInt(String value) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Converter\Funcoes.cs:linha 85
+   em Forms.FormaPagamento.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\FormaPagamento.cs:linha 182
+   em System.Windows.Forms.Control.OnClick(EventArgs e)
+   em System.Windows.Forms.Button.OnClick(EventArgs e)
+   em System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   em System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   em System.Windows.Forms.Control.WndProc(Message& m)
+   em System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   em System.Windows.Forms.Button.WndProc(Message& m)
+   em System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   em System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   em System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   em System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   em System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.RunDialog(Form form)
+   em System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   em Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Venda\Venda.cs:linha 200
+Date/Time: 24/11/2010 11:08:30
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@idCargo bigint,@idSeguranca bigint,@login nvarchar(5),@senha n' expects the parameter '@cidade', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.FuncionarioBD.Update(Funcionario funcionario) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Funcionario.cs:linha 134
+Date/Time: 24/11/2010 15:27:11
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@idCargo bigint,@idSeguranca bigint,@login nvarchar(5),@senha n' expects the parameter '@cidade', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.FuncionarioBD.Update(Funcionario funcionario) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Funcionario.cs:linha 134
+Date/Time: 24/11/2010 15:27:55
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@idCargo bigint,@idSeguranca bigint,@login nvarchar(5),@senha n' expects the parameter '@cidade', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.FuncionarioBD.Update(Funcionario funcionario) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Funcionario.cs:linha 134
+Date/Time: 24/11/2010 15:35:37
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@idCargo bigint,@idSeguranca bigint,@login nvarchar(5),@senha n' expects the parameter '@cidade', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.FuncionarioBD.Update(Funcionario funcionario) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Funcionario.cs:linha 134
+Date/Time: 24/11/2010 15:39:15
+===========================================================================================
+
+Title: Void ShowValues(Library.Cargo)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Cargo.Cargo.ShowValues(Cargo cargo) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Cargo\Cargo.cs:linha 305
+   em Forms.Cargo.Cargo.dataGridView1_RowEnter(Object sender, DataGridViewCellEventArgs e) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Cargo\Cargo.cs:linha 233
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCellEventArgs e)
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   em System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   em System.Windows.Forms.DataGridView.SetAndSelectCurrentCellAddress(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick, Boolean clearSelection, Boolean forceCurrentCellSelection)
+   em System.Windows.Forms.DataGridView.MakeFirstDisplayedCellCurrentCell(Boolean includeNewRow)
+   em System.Windows.Forms.DataGridView.OnRowCollectionChanged_PostNotification(Boolean recreateNewRow, Boolean allowSettingCurrentCell, CollectionChangeAction cca, DataGridViewRow dataGridViewRow, Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PostNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow dataGridViewRow, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   em System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount)
+   em System.Windows.Forms.DataGridViewRowCollection.AddInternal(Boolean newRow, Object[] values)
+   em System.Windows.Forms.DataGridViewRowCollection.Add(Object[] values)
+   em Forms.Cargo.Cargo.RefreshForm() na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Forms\Cargo\Cargo.cs:linha 280
+Date/Time: 24/11/2010 16:33:36
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: String or binary data would be truncated.
+The statement has been terminated.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.ClienteBD.Save(Cliente cliente) na C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Library\Cliente.cs:linha 191
+Date/Time: 25/11/2010 09:42:46
+===========================================================================================
+

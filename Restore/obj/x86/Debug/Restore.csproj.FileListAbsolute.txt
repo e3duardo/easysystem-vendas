@@ -1,0 +1,11 @@
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\bin\Debug\Restore.exe
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\bin\Debug\Restore.pdb
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\bin\Debug\Connection.dll
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\bin\Debug\Connection.pdb
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\Restore.Form1.resources
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\Restore.Properties.Resources.resources
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\Restore.exe
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\Restore\obj\x86\Debug\Restore.pdb

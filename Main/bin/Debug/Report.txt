@@ -1,0 +1,6 @@
+ CAIXA 12/11/2010
+  
+ Vendas a vista:                      R$ 119,35
+ Vendas a prazo:                      R$ 773,48
+  
+ TOTAL:                               R$ 892,83

@@ -1,0 +1,5 @@
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\MatrixReporter\bin\Debug\MatrixReporter.dll
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\MatrixReporter\bin\Debug\MatrixReporter.pdb
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\MatrixReporter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\MatrixReporter\obj\Debug\MatrixReporter.dll
+C:\Documents and Settings\Eduardo\Meus documentos\Visual Studio 2010\Projects\easysystem_venda\MatrixReporter\obj\Debug\MatrixReporter.pdb
